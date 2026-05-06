@@ -14,8 +14,11 @@ Mature libraries
 * FHIR Gateway: A secure proxy for managing access to FHIR servers.
 * FHIR Data Pipes: Tools for moving FHIR data into analytics engines like BigQuery or ClickHouse.
 
-🏗️ New Projects
-* To-do: Add KMP-FHIR, kmp-fhirpath, and OHS-player repositories
+🏗️ Projects under development
+* KMP FHIR SDK: A fully rewritten kotlin multiplatform FHIR SDK (including fhir models) to enable support for Android, iOS and web. 
+* KMP FHIRPath: Kotlin multiplatform implementation of the FHIRPath specification
+* OHS Player: A "reference toolkit” to make it easier to build and deploy (x-platform) "next-gen" digital health solutions (leveraging FHIR standards and AI hooks)
+* OHS Labs: Set of experimental projects to showcase how to bring AI capabilities
 
 🤝 Get Involved
 We are looking for contributors, health systems, and technology partners to help shape the future of open-source health infrastructure.
