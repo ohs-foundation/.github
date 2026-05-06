@@ -9,7 +9,7 @@ The OHS Software Foundation is currently in the formation phase. We have transit
 🚀 Core Projects
 The following core components have been transferred from Google to the OHS Foundation:
 
-* [Android FHIR SDK](: A set of Kotlin libraries for building offline-first Android health apps.
+* Android FHIR SDK: A set of Kotlin libraries for building offline-first Android health apps.
 * FHIR Gateway: A secure proxy for managing access to FHIR servers.
 * FHIR Data Pipes: Tools for moving FHIR data into analytics engines like BigQuery or ClickHouse.
 
