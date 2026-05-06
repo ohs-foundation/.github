@@ -7,18 +7,18 @@ The OHS Software Foundation is dedicated to providing open-source building block
 The OHS Software Foundation is currently in the formation phase. We have transitioned the technical assets and are finalizing the projct charter and governance framework. We welcome interested parties. 
 
 🚀 Core Projects
-The following core components are transitioning to the OHS Foundation:
+The following core components have been transferred from Google to the OHS Foundation:
 
-Mature libraries
-* Android FHIR SDK: A set of Kotlin libraries for building offline-first Android health apps.
+* [Android FHIR SDK](: A set of Kotlin libraries for building offline-first Android health apps.
 * FHIR Gateway: A secure proxy for managing access to FHIR servers.
 * FHIR Data Pipes: Tools for moving FHIR data into analytics engines like BigQuery or ClickHouse.
 
 🏗️ Projects under development
-* KMP FHIR SDK: A fully rewritten kotlin multiplatform FHIR SDK (including fhir models) to enable support for Android, iOS and web. 
+* Kotlin-fhir: A lean and fast implementation of the HL7® FHIR® data model on Kotlin Multiplatform.
+* Kotlin FHIR SDK Libraries (kotlin-fhir-engine, kotlin-fhir-data-capture, kotlin-fhir-workflow, kotlin-fhir-knowledge-manager): A fully rewritten set of kotlin multiplatform FHIR SDK Libraries to enable building FHIR based apps for Android, iOS and web. Leverages the kotlin-fhir models. 
 * KMP FHIRPath: Kotlin multiplatform implementation of the FHIRPath specification
 * OHS Player: A "reference toolkit” to make it easier to build and deploy (x-platform) "next-gen" digital health solutions (leveraging FHIR standards and AI hooks)
-* OHS Labs: Set of experimental projects to showcase how to bring AI capabilities
+* OHS Labs: Set of experimental projects to explore new features that leverage AI or help digital health developers build with AI
 
 🤝 Get Involved
 We are looking for contributors, health systems, and technology partners to help shape the future of open-source health infrastructure.
