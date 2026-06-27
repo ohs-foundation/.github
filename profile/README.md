@@ -1,39 +1,143 @@
-# Welcome to the OHS Software Foundation and Technical Community 
-Welcome to the official home of the Open Health Stack (OHS) Software Foundation, an umbrella project hosted within the Linux Foundation.
+<!--
+  This file renders as the OHS Software Foundation GitHub org landing page.
+  Place it at:  .github/profile/README.md
+  Replace placeholder links (ohs.dev, docs, chat, calendar) with real URLs before publishing.
+  Confirm partner names, WHO framing, and impact metrics are cleared for public use.
+-->
 
-The OHS Software Foundation is dedicated to providing open-source building blocks that enable developers to build "next-gen" digital health solutions open open standards (i.e HL7® FHIR® for interoperability etc), are designed for low-resource settings (e.g. off-line capable, local and cloud deployable) and that enable AI for Global Health.
+<div align="center">
 
-🏗️ Software Foundation Status: Formal Formation Phase
-The OHS Software Foundation is currently in the formation phase. We have transitioned the technical assets and are finalizing the project charter and governance framework. We welcome interested parties. Please reach out to: [fred@ohs.foundation](mailto:fred@ohs.foundation)
+<!-- TODO: replace with hosted logo, e.g. ./assets/ohs-logo.svg -->
+<img src="https://avatars.githubusercontent.com/u/259749173?s=200&v=4" alt="OHS Software Foundation" width="120" />
 
-# 🚀 Core Projects
-The following core components have been transferred from Google to the OHS Foundation:
+# Open Health Stack Software Foundation
 
-* **Android FHIR SDK**: A set of Kotlin libraries for building offline-first Android health apps.
-* **FHIR Gateway**: A secure proxy for managing access to FHIR servers.
-* **FHIR Data Pipes**: Tools for moving FHIR data into analytics engines like BigQuery or ClickHouse.
+**The open, reusable building blocks for the next generation of digital health.**
 
-# 🏗️ Projects under active development 
-* **Kotlin-fhir**: A lean and fast implementation of the HL7® FHIR® data model on Kotlin Multiplatform.
-* **Kotlin FHIR SDK Libraries** (kotlin-fhir-engine, kotlin-fhir-data-capture, kotlin-fhir-workflow, kotlin-fhir-knowledge-manager): 
-A fully rewritten set of kotlin multiplatform FHIR SDK Libraries to enable building FHIR based apps for Android, iOS and web. Leverages the kotlin-fhir models. 
-* **KMP FHIRPath**: Kotlin multiplatform implementation of the FHIRPath specification
-* **OHS Player**: A "reference toolkit” to make it easier to build and deploy (x-platform) "next-gen" digital health solutions (leveraging FHIR standards and AI hooks)
+A [Linux Foundation](https://www.linuxfoundation.org/) project · Built on open standards for health interoperability · A suite of [Digital Public Goods](https://digitalpublicgoods.net/)
 
-# Proposed projects:
-* Verifiable AI: We are working with the WHO and community to define some relevant AI projects to advance the development and use of safe, effective AI for global health use cases (such as tooling for generating evals, benchmarks and relevant skills). If you have ideas please reach out on discord 
-* OHS Labs: Set of experimental projects to explore new features that leverage AI or help digital health developers build with AI
+[Website](https://ohs.dev) · [Documentation](https://ohs.dev/docs) · [Contributing](#contributing) · [Community](#community) · [hello@ohs.foundation](mailto:hello@ohs.foundation)
 
-# 🤝 Get Involved
-We are looking for contributors, health systems, and technology partners to help shape the future of open-source digital health building blocks.
+</div>
 
-## Join the Community
-If you or your organization are interested in joining the foundation, contributing to the roadmap, or participating in a Special Interest Group (SIG), we would love to hear from you.
+---
 
-# Contact Us: 
-Please reach out to our transition team at: [hello@ohs.foundation](mailto:hello@ohs.foundation)
+## What is the OHS Software Foundation?
 
-# 📜 Licensing & Contributions
-Unless otherwise noted, all projects within the OHS Foundation are licensed under the Apache License, Version 2.0. We welcome contributions via Pull Requests; please stay tuned for our updated Contributor License Agreement (CLA) process.
+The OHS Software Foundation builds and maintains **open, reusable building blocks for digital health** — standards-based libraries, SDKs, and reference tooling that make it dramatically easier to build interoperable, AI-ready solutions.
 
-_Open Health Stack and its components are not products of any single corporation. They are community-led tools governed by the OHS Software Foundation._
+Our commitment is to **open standards** for health interoperability. [HL7® FHIR®](https://hl7.org/fhir/) is the foundation of our work today, and we collaborate with standards development organizations and the digital public infrastructure (DPI) community to keep the wider ecosystem open, composable, and free of lock-in — so the building blocks add up to open reference architectures, not another silo.
+
+The idea is simple: stop rebuilding the same plumbing. When the foundational components are open, shared, and maintained in common, developers everywhere spend less time wiring up infrastructure and more time on the parts of a solution that actually improve care — and they keep ownership of what they build.
+
+> **The shift we're built for:**
+> from vertical, single-program solutions → **reusable building blocks** ·
+> from external vendor lock-in → **locally-owned innovation** ·
+> from bespoke integrations → **open standards & interoperability**.
+
+These building blocks are designed for the realities of global health — secure, offline-capable, and built to work in low-resource and low-connectivity settings — and are stewarded in a neutral, community-owned home at the Linux Foundation.
+
+## The three pillars
+
+OHS work is organized into three pillars. Each repository in this organization belongs to one of them (filterable via the `pillar` property and `ohs-*` topics).
+
+| | Pillar | What it covers | Status |
+|---|---|---|---|
+| **01** | **[FHIR Foundations](#01--fhir-foundations)** | Standards-based building blocks — libraries, SDKs, and components that make it easier to build with HL7 FHIR | Active |
+| **02** | **[OHS Player](#02--ohs-player)** | A Multiplatform (Android, iOS, Web) reference toolkit to build and deploy FHIR — and, soon, AI — solutions faster | Active |
+| **03** | **[AI Commons](#03--ai-commons)** | A neutral space for safe, verifiable, model-agnostic AI for global health — evals, benchmarks, and tooling | Forming |
+
+## Start here
+
+| If you want to… | Begin with |
+|---|---|
+| Build a FHIR-native **Android app** (data capture, offline sync, decision support) | [`android-fhir`](https://github.com/ohs-foundation/android-fhir) |
+| Build **cross-platform** (Android, iOS, JVM, Web) on FHIR | the [`kotlin-*` libraries](#01--fhir-foundations) *(next-generation, evolving)* |
+| Add **access control / privacy** in front of a FHIR store | [`fhir-gateway`](https://github.com/ohs-foundation/fhir-gateway) |
+| Run **analytics** and query FHIR data with SQL | [`fhir-data-pipes`](https://github.com/ohs-foundation/fhir-data-pipes) |
+| See a **reference solution** assembled end-to-end | [`fhir-app-examples`](https://github.com/ohs-foundation/fhir-app-examples) · [OHS Player](#02--ohs-player) |
+| **Contribute** to the community | [Contributing](#contributing) |
+
+---
+
+## 01 · FHIR Foundations
+**Standards-based building blocks.** Foundational libraries, SDKs, and components for building with HL7 FHIR — the consolidated "plumbing" so you don't rebuild it.
+
+| Repository | Component | Maturity |
+|---|---|---|
+| [`android-fhir`](https://github.com/ohs-foundation/android-fhir) | **Android FHIR SDK** — Kotlin libraries for offline-capable, mobile-first FHIR apps (Structured Data Capture, FHIR Engine, Workflow) | Stable |
+| [`fhir-gateway`](https://github.com/ohs-foundation/fhir-gateway) | **FHIR Info Gateway** — reverse proxy for access-control and privacy policies in front of any FHIR store | Stable |
+| [`fhir-data-pipes`](https://github.com/ohs-foundation/fhir-data-pipes) | **FHIR Analytics** — pipelines that transform FHIR into SQL-on-FHIR for scalable querying & dashboards | Stable |
+| [`kotlin-fhir`](https://github.com/ohs-foundation/kotlin-fhir) | **Kotlin FHIR** — lean FHIR data model on Kotlin Multiplatform | Evolving |
+| [`kotlin-fhirpath`](https://github.com/ohs-foundation/kotlin-fhirpath) | **Kotlin FHIRPath** — FHIRPath on Kotlin Multiplatform | Evolving |
+| [`kotlin-fhir-data-capture`](https://github.com/ohs-foundation/kotlin-fhir-data-capture) | **Kotlin SDC** — Multiplatform data capture from FHIR Questionnaires | Evolving |
+| [`kotlin-fhir-engine`](https://github.com/ohs-foundation/kotlin-fhir-engine) | **Kotlin FHIR Engine** — Multiplatform on-device FHIR storage & sync | Evolving |
+
+> **Choosing a generation:** `android-fhir` is the mature, production-proven stack for Android. The `kotlin-*` libraries are a Kotlin Multiplatform next generation under active development — ideal for cross-platform work, but APIs may still change.
+
+## 02 · OHS Player
+**A Multiplatform reference toolkit** that shows how to assemble FHIR Foundations components into working solutions across Android, iOS, and Web — so teams build and deploy faster.
+
+| Repository | Role |
+|---|---|
+| [`ohs-player`](https://github.com/ohs-foundation/ohs-player) | Reference toolkit overview & entry point |
+| [`ohs-player-reference-client-app`](https://github.com/ohs-foundation/ohs-player-reference-client-app) | Configurable Kotlin Multiplatform client app |
+| [`ohs-player-reference-web-portal`](https://github.com/ohs-foundation/ohs-player-reference-web-portal) | Web portal for managing workforce hierarchies |
+| [`ohs-player-reference-infrastructure`](https://github.com/ohs-foundation/ohs-player-reference-infrastructure) | Deployment scripts & container images |
+| [`fhir-app-examples`](https://github.com/ohs-foundation/fhir-app-examples) | Worked examples of OHS components combined into FHIR-based solutions |
+
+> **Reference, not product.** The Foundation publishes building blocks and reference toolkits — not standalone, deployable end-user products. Player is a starting point you adapt and own.
+
+## 03 · AI Commons
+**A neutral space for safe, effective AI in global health** — *forming.* Model-agnostic collaboration on evals, benchmarks, verifiable AI, and supporting tooling (skills, MCPs), in partnership with the WHO and the wider ecosystem.
+
+Repositories will appear here as the pillar takes shape. Have a project to donate or an idea to support? [Let's talk](mailto:hello@ohs.foundation).
+
+---
+
+## How it fits together
+
+```
+        ┌─────────────────────────────────────────────┐
+        │  Your digital health solution               │
+        ├─────────────────────────────────────────────┤
+ Client │  Android FHIR SDK  │  kotlin-* (multiplatform)│  ← FHIR Foundations
+        ├─────────────────────────────────────────────┤
+ Access │  FHIR Info Gateway (access control / privacy)│  ← FHIR Foundations
+        ├─────────────────────────────────────────────┤
+ Store  │  FHIR server (your choice)                  │
+        ├─────────────────────────────────────────────┤
+ Insight│  FHIR Data Pipes  →  SQL-on-FHIR / analytics │  ← FHIR Foundations
+        └─────────────────────────────────────────────┘
+   Assembled end-to-end as a reference toolkit:  OHS Player  (Pillar 02)
+```
+
+## Contributing
+
+We welcome contributions of every kind — code, documentation, testing, design, and field feedback from real deployments. Contributing to technical projects does **not** require Foundation membership.
+
+- **New here?** Browse [`good first issue`](https://github.com/search?q=org%3Aohs-foundation+label%3A%22good+first+issue%22+state%3Aopen&type=issues) across the org.
+- **Each repository** has its own contribution and build instructions in its README and `CONTRIBUTING.md`.
+- **Reporting a vulnerability?** Healthcare software deserves extra care — please follow each repo's security policy and do not open public issues for security reports.
+
+## Community
+
+- 💬 Chat / mailing list: *TODO — add link*
+- 📅 Community calls: *TODO — add calendar link*
+- 📨 General contact: [hello@ohs.foundation](mailto:hello@ohs.foundation)
+
+## Governance
+
+OHS is a community-driven, vendor-neutral project hosted by the Linux Foundation, with open governance set by the community doing the work. The formal charter and governance model are being finalized by the formation group and will be published here as the Foundation launches.
+
+## Background
+
+Open Health Stack launched in 2023 — created at Google in collaboration with the WHO and a global developer community — as a suite of Digital Public Goods for FHIR-native digital health. Since then, OHS tools have grown to help cover **60M+ lives** across Sub-Saharan Africa, South Asia, and Southeast Asia, with 20+ technical partners building national-scale solutions in community health, public-health surveillance, and chronic-disease care. <!-- TODO: confirm partner/impact details are cleared for public use; link case studies. -->
+
+OHS is now transitioning from a Google-led project into an independent, community-owned **umbrella project at the Linux Foundation** — a neutral home built to steward these building blocks for the long term and to serve the global health ecosystem that depends on them.
+
+## License
+
+OHS components are released under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) unless a repository states otherwise.
+
+<sub>HL7® and FHIR® are registered trademarks of Health Level Seven International. Use does not constitute endorsement.</sub>
