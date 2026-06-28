@@ -8,21 +8,19 @@
 <div align="center">
 
 <!-- TODO: replace with hosted logo, e.g. ./assets/ohs-logo.svg -->
-<img src="https://github.com/ohs-foundation/.github/blob/main/ohs-mark-transparent.png" alt="OHS Software Foundation" width="120" />
+<img src="https://github.com/ohs-foundation/.github/blob/main/ohs-logo-horizontal-transparent.png" alt="OHS Software Foundation" width="480" />
 
-# Open Health Stack Software Foundation
+# Open Health Stack Software Foundation (OHS-SF)
 
-**The open, reusable building blocks for the next generation of digital health.**
+**A [Linux Foundation](https://www.linuxfoundation.org/) project · Built on open standards for advancing next-gen global digital health** 
 
-A [Linux Foundation](https://www.linuxfoundation.org/) project · Built on open standards for advancing next-gen global digital health 
-
-[Contributing](#contributing) · [Community](#community) · [hello@ohs.foundation](mailto:hello@ohs.foundation)
+[Intro](#what-is-the-ohs-sf) · [Start Here](#start-here) · [Contributing](#contributing) · [Community](#community) · [hello@ohs.foundation](mailto:hello@ohs.foundation)
 
 </div>
 
 ---
 
-## What is the OHS Software Foundation?
+## What is the OHS-SF?
 
 The OHS Software Foundation builds and maintains **open, reusable building blocks for digital health** — standards-based libraries, SDKs, and reference tooling that make it dramatically easier to build interoperable, AI-ready solutions.
 
