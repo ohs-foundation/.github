@@ -6,6 +6,9 @@ The OHS Software Foundation is dedicated to providing open-source building block
 🏗️ Software Foundation Status: Formal Formation Phase
 The OHS Software Foundation is currently in the formation phase. We have transitioned the technical assets and are finalizing the project charter and governance framework. We welcome interested parties. Please reach out to: [fred@ohs.foundation](mailto:fred@ohs.foundation)
 
+## Code of Conduct
+This project follows the [OHS Software Foundation Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold these standards.
+
 # 🚀 Core Projects
 The following core components have been transferred from Google to the OHS Foundation:
 
