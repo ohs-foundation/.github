@@ -51,13 +51,13 @@ OHS-SF work is organized into three pillars. Each repository in this organizatio
 | Build **cross-platform** (Android, iOS, JVM, Web) on FHIR | the [`kotlin-*` libraries](#01--fhir-foundations) *(next-generation, evolving)* |
 | Add **access control / privacy** in front of a FHIR store | [`fhir-gateway`](https://github.com/ohs-foundation/fhir-gateway) |
 | Run **analytics** and query FHIR data with SQL | [`fhir-data-pipes`](https://github.com/ohs-foundation/fhir-data-pipes) |
-| See a **reference solution** assembled end-to-end | [`fhir-app-examples`](https://github.com/ohs-foundation/fhir-app-examples) · [OHS Player](#02--ohs-player) |
+| See a **reference toolkit** assembled end-to-end | [OHS Player](#02--ohs-player) |
 | **Contribute** to the community | [Contributing](#contributing) |
 
 ---
 
-## 01 · FHIR Foundations
-**Standards-based building blocks.** Foundational libraries, SDKs, and components for building with HL7 FHIR — the consolidated "plumbing" so you don't rebuild it.
+## 01 · FHIR Foundations 
+**Standards-based building blocks.** Foundational libraries, SDKs, and components for building with HL7 FHIR — the consolidated "plumbing" so you don't rebuild it | [View Collection](https://github.com/orgs/ohs-foundation/repositories?q=topic:ohs-fhir-foundations)
 
 | Repository | Component | Maturity |
 |---|---|---|
@@ -71,8 +71,8 @@ OHS-SF work is organized into three pillars. Each repository in this organizatio
 
 > **Choosing a generation:** `android-fhir` is the mature, production-proven stack for Android. The `kotlin-*` libraries are a Kotlin Multiplatform next generation under active development — ideal for cross-platform work, but APIs may still change.
 
-## 02 · OHS Player (Active development)
-**A Multiplatform reference toolkit** that shows how to assemble FHIR Foundations components into working solutions across Android, iOS, and Web — so teams build and deploy faster.
+## 02 · OHS Player
+**A Multiplatform reference toolkit** that shows how to assemble FHIR Foundations components into working solutions across Android, iOS, and Web — so teams build and deploy faster | | [View Collection](https://github.com/orgs/ohs-foundation/repositories?q=topic:ohs-player)
 
 | Repository | Role |
 |---|---|
@@ -80,7 +80,6 @@ OHS-SF work is organized into three pillars. Each repository in this organizatio
 | [`ohs-player-reference-client-app`](https://github.com/ohs-foundation/ohs-player-reference-client-app) | Configurable Kotlin Multiplatform client app |
 | [`ohs-player-reference-web-portal`](https://github.com/ohs-foundation/ohs-player-reference-web-portal) | Web portal for managing workforce hierarchies |
 | [`ohs-player-reference-infrastructure`](https://github.com/ohs-foundation/ohs-player-reference-infrastructure) | Deployment scripts & container images |
-| [`fhir-app-examples`](https://github.com/ohs-foundation/fhir-app-examples) | Worked examples of OHS components combined into FHIR-based solutions |
 
 > **Reference, not product.** The Foundation publishes building blocks and reference toolkits — not standalone, deployable end-user products. Player is a starting point you adapt and own.
 
