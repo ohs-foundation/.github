@@ -25,7 +25,10 @@ A fully rewritten set of kotlin multiplatform FHIR SDK Libraries to enable build
 * OHS Labs: Set of experimental projects to explore new features that leverage AI or help digital health developers build with AI
 
 # 🤝 Get Involved
-We are looking for contributors, health systems, and technology partners to help shape the future of open-source digital health building blocks.
+We are looking for contributors, health systems, and technology partners to help shape the future of open-source digital health building blocks. 
+
+## Code of Conduct
+This project follows the [OHS Software Foundation Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold these standards.
 
 ## Join the Community
 If you or your organization are interested in joining the foundation, contributing to the roadmap, or participating in a Special Interest Group (SIG), we would love to hear from you.
