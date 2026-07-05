@@ -51,13 +51,15 @@ OHS-SF work is organized into three pillars. Each repository in this organizatio
 | Build **cross-platform** (Android, iOS, JVM, Web) on FHIR | the [`kotlin-*` libraries](#01--fhir-foundations) *(next-generation, evolving)* |
 | Add **access control / privacy** in front of a FHIR store | [`fhir-gateway`](https://github.com/ohs-foundation/fhir-gateway) |
 | Run **analytics** and query FHIR data with SQL | [`fhir-data-pipes`](https://github.com/ohs-foundation/fhir-data-pipes) |
-| See a **reference toolkit** assembled end-to-end | [OHS Player](#02--ohs-player) |
-| **Contribute** to the community | [Contributing](#contributing) |
+| See a **reference toolkit** assembled end-to-end | [`"OHS Player" Toolkit`](#02--ohs-player) |
+| **Contribute** to the community | [`Contributing`](#contributing) |
 
 ---
 
 ## 01 · FHIR Foundations 
 **Standards-based building blocks.** Foundational libraries, SDKs, and components for building with HL7 FHIR — the consolidated "plumbing" so you don't rebuild it | [View Collection](https://github.com/orgs/ohs-foundation/repositories?q=topic:ohs-fhir-foundations)
+
+> **Choosing a generation:** `android-fhir` is the mature, production-proven stack for Android. The `kotlin-*` libraries are a Kotlin Multiplatform next generation under active development — ideal for cross-platform work, but APIs may still change.
 
 | Repository | Component | Maturity |
 |---|---|---|
@@ -68,8 +70,6 @@ OHS-SF work is organized into three pillars. Each repository in this organizatio
 | [`kotlin-fhirpath`](https://github.com/ohs-foundation/kotlin-fhirpath) | **Kotlin FHIRPath** — FHIRPath on Kotlin Multiplatform | Beta |
 | [`kotlin-fhir-data-capture`](https://github.com/ohs-foundation/kotlin-fhir-data-capture) | **Kotlin SDC** — Multiplatform data capture from FHIR Questionnaires | Alpha |
 | [`kotlin-fhir-engine`](https://github.com/ohs-foundation/kotlin-fhir-engine) | **Kotlin FHIR Engine** — Multiplatform on-device FHIR storage & sync | Evolving |
-
-> **Choosing a generation:** `android-fhir` is the mature, production-proven stack for Android. The `kotlin-*` libraries are a Kotlin Multiplatform next generation under active development — ideal for cross-platform work, but APIs may still change.
 
 ## 02 · OHS Player
 **A Multiplatform reference toolkit** that shows how to assemble FHIR Foundations components into working solutions across Android, iOS, and Web — so teams build and deploy faster | | [View Collection](https://github.com/orgs/ohs-foundation/repositories?q=topic:ohs-player)
@@ -99,8 +99,8 @@ We welcome contributions of every kind — code, documentation, testing, design,
 
 ## Community
 
-- 💬 Chat / mailing list: *TODO — add link*
-- 📅 Community calls: *TODO — add calendar link*
+- 💬 Chat : [Join on Discord](https://discord.com/invite/Uyxn5YDvUW)
+- 📅 Community calls: [Subscribe to the Community Calendar](https://shorturl.at/VMmJa)
 - 📨 General contact: [hello@ohs.foundation](mailto:hello@ohs.foundation)
 
 ## Governance
