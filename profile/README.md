@@ -110,7 +110,7 @@ This project follows the [OHS Software Foundation Code of Conduct](https://githu
 
 OHS-SF is a community-driven, vendor-neutral project hosted by the Linux Foundation, with open governance set by the community doing the work. The formal charter and governance model are being finalized by the formation group and will be published here as the Foundation launches.
 
-## Background
+## Project History
 
 Open Health Stack launched in 2023 — created at Google in collaboration with the WHO and a global developer community — as a suite of Digital Public Goods for FHIR-native digital health. 
 
