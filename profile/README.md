@@ -47,7 +47,6 @@ OHS-SF work is organized into three pillars. Each repository in this organizatio
 
 | If you want to… | Begin with |
 |---|---|
-| Build a FHIR-native **Android app** (data capture, offline sync, decision support) | [`android-fhir`](https://github.com/ohs-foundation/android-fhir) |
 | Build **cross-platform** (Android, iOS, JVM, Web) on FHIR | the [`kotlin-*` libraries](#01--fhir-foundations) *(next-generation, evolving)* |
 | Add **access control / privacy** in front of a FHIR store | [`fhir-gateway`](https://github.com/ohs-foundation/fhir-gateway) |
 | Run **analytics** and query FHIR data with SQL | [`fhir-data-pipes`](https://github.com/ohs-foundation/fhir-data-pipes) |
