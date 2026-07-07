@@ -97,6 +97,9 @@ We welcome contributions of every kind — code, documentation, testing, design,
 - **Each repository** has its own contribution and build instructions in its README and `CONTRIBUTING.md`.
 - **Reporting a vulnerability?** Healthcare software deserves extra care — please follow each repo's security policy and do not open public issues for security reports.
 
+## Code of Conduct
+This project follows the [OHS Software Foundation Code of Conduct](https://github.com/ohs-foundation/.github/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold these standards.
+
 ## Community
 
 - 💬 Chat : [Join on Discord](https://discord.com/invite/Uyxn5YDvUW)
