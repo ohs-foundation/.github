@@ -7,7 +7,7 @@ The OHS Software Foundation is dedicated to providing open-source building block
 The OHS Software Foundation is currently in the formation phase. We have transitioned the technical assets and are finalizing the project charter and governance framework. We welcome interested parties. Please reach out to: [fred@ohs.foundation](mailto:fred@ohs.foundation)
 
 ## Code of Conduct
-This project follows the [OHS Software Foundation Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold these standards.
+This project follows the [OHS Software Foundation Code of Conduct](https://github.com/ohs-foundation/.github/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold these standards.
 
 # 🚀 Core Projects
 The following core components have been transferred from Google to the OHS Foundation:
@@ -31,7 +31,7 @@ A fully rewritten set of kotlin multiplatform FHIR SDK Libraries to enable build
 We are looking for contributors, health systems, and technology partners to help shape the future of open-source digital health building blocks. 
 
 ## Code of Conduct
-This project follows the [OHS Software Foundation Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold these standards.
+This project follows the [OHS Software Foundation Code of Conduct](https://github.com/ohs-foundation/.github/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold these standards.
 
 ## Join the Community
 If you or your organization are interested in joining the foundation, contributing to the roadmap, or participating in a Special Interest Group (SIG), we would love to hear from you.
