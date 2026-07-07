@@ -71,7 +71,7 @@ OHS-SF work is organized into three pillars. Each repository in this organizatio
 | [`kotlin-fhir-data-capture`](https://github.com/ohs-foundation/kotlin-fhir-data-capture) | **Kotlin SDC** — Multiplatform data capture from FHIR Questionnaires | Alpha |
 | [`kotlin-fhir-engine`](https://github.com/ohs-foundation/kotlin-fhir-engine) | **Kotlin FHIR Engine** — Multiplatform on-device FHIR storage & sync | Evolving |
 
-## 02 · OHS Player
+### 02 · OHS Player
 **A Multiplatform reference toolkit** that shows how to assemble FHIR Foundations components into working solutions across Android, iOS, and Web — so teams build and deploy faster | | [View Collection](https://github.com/orgs/ohs-foundation/repositories?q=topic:ohs-player)
 
 | Repository | Role |
