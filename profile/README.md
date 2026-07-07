@@ -63,7 +63,7 @@ OHS-SF work is organized into three pillars. Each repository in this organizatio
 
 | Repository | Component | Maturity |
 |---|---|---|
-| [`android-fhir`](https://github.com/ohs-foundation/android-fhir) | **Android FHIR SDK** — Kotlin libraries for offline-capable, mobile-first FHIR apps (Structured Data Capture, FHIR Engine, Workflow) | Stable |
+| [`android-fhir`](https://github.com/ohs-foundation/android-fhir) | **Android FHIR SDK** — Kotlin libraries for offline-capable, mobile-first FHIR apps (Structured Data Capture, FHIR Engine, Workflow) | Maintenance |
 | [`fhir-gateway`](https://github.com/ohs-foundation/fhir-gateway) | **FHIR Info Gateway** — reverse proxy for access-control and privacy policies in front of any FHIR store | Stable |
 | [`fhir-data-pipes`](https://github.com/ohs-foundation/fhir-data-pipes) | **FHIR Analytics** — pipelines that transform FHIR into SQL-on-FHIR for scalable querying & dashboards | Stable |
 | [`kotlin-fhir`](https://github.com/ohs-foundation/kotlin-fhir) | **Kotlin FHIR** — lean FHIR data model on Kotlin Multiplatform | Beta |
