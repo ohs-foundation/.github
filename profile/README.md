@@ -83,7 +83,7 @@ OHS-SF work is organized into three pillars. Each repository in this organizatio
 
 > **Reference, not product.** The Foundation publishes building blocks and reference toolkits — not standalone, deployable end-user products. Player is a starting point you adapt and own.
 
-## 03 · AI Commons (Launching)
+### 03 · AI Commons (Launching)
 **A neutral space for safe, effective AI in global health** — *forming.* Model-agnostic collaboration on evals, benchmarks, verifiable AI, and supporting tooling (skills, MCPs), in partnership with the WHO and the wider ecosystem.
 
 Repositories will appear here as the pillar takes shape. Have a project to donate or an idea to support? [Let's talk](mailto:hello@ohs.foundation).
