@@ -114,7 +114,7 @@ OHS-SF is a community-driven, vendor-neutral project hosted by the Linux Foundat
 
 Open Health Stack launched in 2023 — created at Google in collaboration with the WHO and a global developer community — as a suite of Digital Public Goods for FHIR-native digital health. 
 
-OHS is now transitioning from a Google-led project into an independent, community-owned **umbrella project at the Linux Foundation** — a neutral home built to steward these building blocks for the long term and to serve the global health ecosystem that depends on them.
+OHS transitioned from a Google-led project into an independent, community-owned **umbrella project at the Linux Foundation** — a neutral home built to steward these building blocks for the long term and to serve the global health ecosystem that depends on them.
 
 ## License
 
