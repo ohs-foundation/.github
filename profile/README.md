@@ -93,7 +93,7 @@ Repositories will appear here as the pillar takes shape. Have a project to donat
 We welcome contributions of every kind — code, documentation, testing, design, and field feedback from real deployments. Contributing to technical projects does **not** require Foundation membership.
 
 - **New here?** Browse [`good first issue`](https://github.com/search?q=org%3Aohs-foundation+label%3A%22good+first+issue%22+state%3Aopen&type=issues) across the org.
-- **Each repository** has its own contribution and build instructions in its README and `CONTRIBUTING.md`.
+- **Each repository** has its own contribution and build instructions in its README and/or `CONTRIBUTING.md`.
 - **Reporting a vulnerability?** Healthcare software deserves extra care — please follow each repo's security policy and do not open public issues for security reports.
 
 ## Code of Conduct
