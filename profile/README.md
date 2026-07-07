@@ -56,7 +56,7 @@ OHS-SF work is organized into three pillars. Each repository in this organizatio
 
 ---
 
-## 01 · FHIR Foundations 
+### 01 · FHIR Foundations 
 **Standards-based building blocks.** Foundational libraries, SDKs, and components for building with HL7 FHIR — the consolidated "plumbing" so you don't rebuild it | [View Collection](https://github.com/orgs/ohs-foundation/repositories?q=topic:ohs-fhir-foundations)
 
 > **Choosing a generation:** `android-fhir` is the mature, production-proven stack for Android. The `kotlin-*` libraries are a Kotlin Multiplatform next generation under active development — ideal for cross-platform work, but APIs may still change.
