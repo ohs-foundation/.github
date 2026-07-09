@@ -12,7 +12,7 @@
 
 **A [Linux Foundation](https://www.linuxfoundation.org/) project · Built on open standards for advancing next-gen global digital health** 
 
-[Intro](#what-is-the-ohs-sf) · [Start Here](#start-here) · [Get Involved](#-get-involved) · [Community](#community) · [hello@ohs.foundation](mailto:hello@ohs.foundation)
+[Intro](#what-is-the-ohs-sf) · [Start Here](#start-here) · [Get Involved](#-get-involved) · [Community](#community) · [History](#project-history) 
 
 </div>
 
@@ -29,9 +29,11 @@ The idea is simple: stop rebuilding the same plumbing. When the foundational com
 
 These building blocks are designed for the realities of global health — secure, offline-capable, and built to work in low-resource and low-connectivity settings — and are stewarded in a neutral, community-owned home at the Linux Foundation.
 
-## Project pillars
+# Project pillars
 
-The OHS-SF organizes its work into three pillars — each a different way to engage, all grounded in open standards for health and AI. Each repository in this organization belongs to one of the three pillars (filterable via the `pillar` property and `ohs-*` topics).
+The OHS-SF organizes its work into three pillars — each a different way to engage, all grounded in open standards for health and AI. 
+
+_Each repository in this organization belongs to one of the three pillars (filterable via the `pillar` property and `ohs-*` topics)._
 
 | | Pillar | What it covers | Status |
 |---|---|---|---|
@@ -39,7 +41,7 @@ The OHS-SF organizes its work into three pillars — each a different way to eng
 | **02** | **[OHS Player](#02--ohs-player)** | A Multiplatform (Android, iOS, Web) reference toolkit to build and deploy FHIR — and, soon, AI — solutions faster | Active |
 | **03** | **[AI Commons](#03--ai-commons)** | A neutral space for safe, verifiable, model-agnostic AI for global health — evals, benchmarks, and tooling | Forming |
 
-### 01 · FHIR Foundations 
+## 01 · FHIR Foundations 
 **Standards-based building blocks.** Foundational libraries, SDKs, and components for building with HL7 FHIR — the consolidated "plumbing" so you don't rebuild it | [View Collection](https://github.com/orgs/ohs-foundation/repositories?q=topic:ohs-fhir-foundations)
 
 > **Choosing a generation:** `android-fhir` is the mature, production-proven stack for Android. The `kotlin-*` libraries are a Kotlin Multiplatform next generation under active development — ideal for cross-platform work, but APIs may still change.
@@ -54,7 +56,7 @@ The OHS-SF organizes its work into three pillars — each a different way to eng
 | [`kotlin-fhir-data-capture`](https://github.com/ohs-foundation/kotlin-fhir-data-capture) | **Kotlin SDC** — Multiplatform data capture from FHIR Questionnaires | Alpha |
 | [`kotlin-fhir-engine`](https://github.com/ohs-foundation/kotlin-fhir-engine) | **Kotlin FHIR Engine** — Multiplatform on-device FHIR storage & sync | Evolving |
 
-### 02 · OHS Player
+## 02 · OHS Player
 **A Multiplatform reference toolkit** that shows how to assemble FHIR Foundations components into working solutions across Android, iOS, and Web — so teams build and deploy faster | | [View Collection](https://github.com/orgs/ohs-foundation/repositories?q=topic:ohs-player)
 
 | Repository | Role |
@@ -66,7 +68,7 @@ The OHS-SF organizes its work into three pillars — each a different way to eng
 
 > **Reference, not product.** The Foundation publishes building blocks and reference toolkits — not standalone, deployable end-user products. Player is a starting point you adapt and own.
 
-### 03 · AI Commons (Launching)
+## 03 · AI Commons (Launching)
 **A neutral space for safe, effective AI in global health** — *forming.* Model-agnostic collaboration on evals, benchmarks, verifiable AI, and supporting tooling (skills, MCPs), in partnership with the WHO and the wider ecosystem.
 
 Repositories will appear here as the pillar takes shape. Have a project to donate or an idea to support? [Let's talk](mailto:hello@ohs.foundation).
@@ -89,6 +91,10 @@ Repositories will appear here as the pillar takes shape. Have a project to donat
 
 We are looking for contributors, health systems, and technology partners to help shape the future of open-source digital health building blocks. 
 
+## Governance
+
+OHS-SF is a community-driven, vendor-neutral project hosted by the Linux Foundation, with open governance set by the community doing the work. The formal charter and governance model are being finalized by the formation group and will be published here as the Foundation launches.
+
 ## Contributing
 
 We welcome contributions of every kind — code, documentation, testing, design, and field feedback from real deployments. Contributing to technical projects does **not** require Foundation membership.
@@ -100,23 +106,23 @@ We welcome contributions of every kind — code, documentation, testing, design,
 ## Code of Conduct
 This project follows the [OHS Software Foundation Code of Conduct](https://github.com/ohs-foundation/.github/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold these standards.
 
-# Community
+## Community
+There are multiple ways to join the conversation:
 
 - 💬 Chat : [Join on Discord](https://discord.com/invite/Uyxn5YDvUW)
 - 📅 Community calls: [Subscribe to the Community Calendar](https://shorturl.at/VMmJa)
 - 📨 General contact: [hello@ohs.foundation](mailto:hello@ohs.foundation)
 
-## Governance
+**[Sign up to our mailing list](https://ohs.foundation/community.html#subscribe) to receive regular updates and details for upcming calls and events**
 
-OHS-SF is a community-driven, vendor-neutral project hosted by the Linux Foundation, with open governance set by the community doing the work. The formal charter and governance model are being finalized by the formation group and will be published here as the Foundation launches.
 
-## Project History
+# Project History
 
 Open Health Stack launched in 2023 — created at Google in collaboration with the WHO and a global developer community — as a suite of Digital Public Goods for FHIR-native digital health. 
 
 OHS transitioned from a Google-led project into an independent, community-owned **umbrella project at the Linux Foundation** — a neutral home built to steward these building blocks for the long term and to serve the global health ecosystem that depends on them.
 
-## License
+# License
 
 OHS components are released under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) unless a repository states otherwise.
 
