@@ -10,15 +10,17 @@
 <!-- TODO: replace with hosted logo, e.g. ./assets/ohs-logo.svg -->
 <img src="https://github.com/ohs-foundation/.github/blob/main/ohs-logo-horizontal-transparent.png" alt="OHS Software Foundation" width="480" />
 
-# Open Health Stack Software Foundation (OHS-SF)
-
 **A [Linux Foundation](https://www.linuxfoundation.org/) project · Built on open standards for advancing next-gen global digital health** 
 
 [Intro](#what-is-the-ohs-sf) · [Start Here](#start-here) · [Contributing](#contributing) · [Community](#community) · [hello@ohs.foundation](mailto:hello@ohs.foundation)
 
 </div>
 
----
+# 🤝 Get Involved
+We are looking for contributors, health systems, and technology partners to help shape the future of open-source digital health building blocks. 
+
+## Code of Conduct
+This project follows the [OHS Software Foundation Code of Conduct](https://github.com/ohs-foundation/.github/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold these standards.
 
 ## What is the OHS-SF?
 
