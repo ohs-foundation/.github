@@ -12,17 +12,11 @@
 
 **A [Linux Foundation](https://www.linuxfoundation.org/) project · Built on open standards for advancing next-gen global digital health** 
 
-[Intro](#what-is-the-ohs-sf) · [Start Here](#start-here) · [Contributing](#contributing) · [Community](#community) · [hello@ohs.foundation](mailto:hello@ohs.foundation)
+[Intro](#what-is-the-ohs-sf) · [Start Here](#start-here) · [Get Involved](#-get-involved) · [Contributing](#contributing) · [Community](#community) · [hello@ohs.foundation](mailto:hello@ohs.foundation)
 
 </div>
 
-# 🤝 Get Involved
-We are looking for contributors, health systems, and technology partners to help shape the future of open-source digital health building blocks. 
-
-## Code of Conduct
-This project follows the [OHS Software Foundation Code of Conduct](https://github.com/ohs-foundation/.github/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold these standards.
-
-## What is the OHS-SF?
+# What is the OHS-SF?
 
 The OHS Software Foundation builds and maintains **open, reusable building blocks for digital health** — standards-based libraries, SDKs, and reference tooling that make it dramatically easier to build interoperable, AI-ready solutions.
 
@@ -45,7 +39,7 @@ OHS-SF work is organized into three pillars. Each repository in this organizatio
 | **02** | **[OHS Player](#02--ohs-player)** | A Multiplatform (Android, iOS, Web) reference toolkit to build and deploy FHIR — and, soon, AI — solutions faster | Active |
 | **03** | **[AI Commons](#03--ai-commons)** | A neutral space for safe, verifiable, model-agnostic AI for global health — evals, benchmarks, and tooling | Forming |
 
-## Start here
+# Start here
 
 | If you want to… | Begin with |
 |---|---|
@@ -57,7 +51,7 @@ OHS-SF work is organized into three pillars. Each repository in this organizatio
 
 ---
 
-### 01 · FHIR Foundations 
+## 01 · FHIR Foundations 
 **Standards-based building blocks.** Foundational libraries, SDKs, and components for building with HL7 FHIR — the consolidated "plumbing" so you don't rebuild it | [View Collection](https://github.com/orgs/ohs-foundation/repositories?q=topic:ohs-fhir-foundations)
 
 > **Choosing a generation:** `android-fhir` is the mature, production-proven stack for Android. The `kotlin-*` libraries are a Kotlin Multiplatform next generation under active development — ideal for cross-platform work, but APIs may still change.
@@ -72,7 +66,7 @@ OHS-SF work is organized into three pillars. Each repository in this organizatio
 | [`kotlin-fhir-data-capture`](https://github.com/ohs-foundation/kotlin-fhir-data-capture) | **Kotlin SDC** — Multiplatform data capture from FHIR Questionnaires | Alpha |
 | [`kotlin-fhir-engine`](https://github.com/ohs-foundation/kotlin-fhir-engine) | **Kotlin FHIR Engine** — Multiplatform on-device FHIR storage & sync | Evolving |
 
-### 02 · OHS Player
+## 02 · OHS Player
 **A Multiplatform reference toolkit** that shows how to assemble FHIR Foundations components into working solutions across Android, iOS, and Web — so teams build and deploy faster | | [View Collection](https://github.com/orgs/ohs-foundation/repositories?q=topic:ohs-player)
 
 | Repository | Role |
@@ -84,12 +78,16 @@ OHS-SF work is organized into three pillars. Each repository in this organizatio
 
 > **Reference, not product.** The Foundation publishes building blocks and reference toolkits — not standalone, deployable end-user products. Player is a starting point you adapt and own.
 
-### 03 · AI Commons (Launching)
+## 03 · AI Commons (Launching)
 **A neutral space for safe, effective AI in global health** — *forming.* Model-agnostic collaboration on evals, benchmarks, verifiable AI, and supporting tooling (skills, MCPs), in partnership with the WHO and the wider ecosystem.
 
 Repositories will appear here as the pillar takes shape. Have a project to donate or an idea to support? [Let's talk](mailto:hello@ohs.foundation).
 
 ---
+# 🤝 Get Involved
+
+We are looking for contributors, health systems, and technology partners to help shape the future of open-source digital health building blocks. 
+
 ## Contributing
 
 We welcome contributions of every kind — code, documentation, testing, design, and field feedback from real deployments. Contributing to technical projects does **not** require Foundation membership.
@@ -99,7 +97,7 @@ We welcome contributions of every kind — code, documentation, testing, design,
 - **Reporting a vulnerability?** Healthcare software deserves extra care — please follow each repo's security policy and do not open public issues for security reports.
 
 ## Code of Conduct
-This project follows the [OHS Software Foundation Code of Conduct](https://github.com/ohs-foundation/.github/blob/main/CODE_OF_CONDUCT.md). By participating, you agree to uphold these standards.
+This project follows the [OHS Software Foundation Code of Conduct](https://github.com/ohs-foundation/.github/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold these standards.
 
 ## Community
 
