@@ -102,10 +102,13 @@ We welcome contributions of every kind — code, documentation, testing, design,
 This project follows the [OHS Software Foundation Code of Conduct](https://github.com/ohs-foundation/.github/blob/main/CODE_OF_CONDUCT.md). By participating, you agree to uphold these standards.
 
 ## Community
+There are multiple ways to participate in the OHS community.
 
 - 💬 Chat : [Join on Discord](https://discord.com/invite/Uyxn5YDvUW)
 - 📅 Community calls: [Subscribe to the Community Calendar](https://shorturl.at/VMmJa)
 - 📨 General contact: [hello@ohs.foundation](mailto:hello@ohs.foundation)
+
+**[Sign up](https://ohs.foundation/community.html#subscribe) to receive regular updates and details of upcoming community calls and events**
 
 ## Governance
 
