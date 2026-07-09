@@ -12,7 +12,7 @@
 
 **A [Linux Foundation](https://www.linuxfoundation.org/) project · Built on open standards for advancing next-gen global digital health** 
 
-[Intro](#what-is-the-ohs-sf) · [Start Here](#start-here) · [Get Involved](#-get-involved) · [Contributing](#contributing) · [Community](#community) · [hello@ohs.foundation](mailto:hello@ohs.foundation)
+[Intro](#what-is-the-ohs-sf) · [Start Here](#start-here) · [Get Involved](#-get-involved) · [Community](#community) · [hello@ohs.foundation](mailto:hello@ohs.foundation)
 
 </div>
 
@@ -29,9 +29,9 @@ The idea is simple: stop rebuilding the same plumbing. When the foundational com
 
 These building blocks are designed for the realities of global health — secure, offline-capable, and built to work in low-resource and low-connectivity settings — and are stewarded in a neutral, community-owned home at the Linux Foundation.
 
-## The three pillars
+## Project pillars
 
-OHS-SF work is organized into three pillars. Each repository in this organization belongs to one of them (filterable via the `pillar` property and `ohs-*` topics).
+The OHS-SF organizes its work into three pillars — each a different way to engage, all grounded in open standards for health and AI. Each repository in this organization belongs to one of the three pillars (filterable via the `pillar` property and `ohs-*` topics).
 
 | | Pillar | What it covers | Status |
 |---|---|---|---|
@@ -39,19 +39,7 @@ OHS-SF work is organized into three pillars. Each repository in this organizatio
 | **02** | **[OHS Player](#02--ohs-player)** | A Multiplatform (Android, iOS, Web) reference toolkit to build and deploy FHIR — and, soon, AI — solutions faster | Active |
 | **03** | **[AI Commons](#03--ai-commons)** | A neutral space for safe, verifiable, model-agnostic AI for global health — evals, benchmarks, and tooling | Forming |
 
-# Start here
-
-| If you want to… | Begin with |
-|---|---|
-| Build **cross-platform** (Android, iOS, JVM, Web) on FHIR | the [`kotlin-*` libraries](#01--fhir-foundations) *(next-generation, evolving)* |
-| Add **access control / privacy** in front of a FHIR store | [`fhir-gateway`](https://github.com/ohs-foundation/fhir-gateway) |
-| Run **analytics** and query FHIR data with SQL | [`fhir-data-pipes`](https://github.com/ohs-foundation/fhir-data-pipes) |
-| See a **reference toolkit** assembled end-to-end | [`"OHS Player" Toolkit`](#02--ohs-player) |
-| **Contribute** to the community | [`Contributing`](#contributing) |
-
----
-
-## 01 · FHIR Foundations 
+### 01 · FHIR Foundations 
 **Standards-based building blocks.** Foundational libraries, SDKs, and components for building with HL7 FHIR — the consolidated "plumbing" so you don't rebuild it | [View Collection](https://github.com/orgs/ohs-foundation/repositories?q=topic:ohs-fhir-foundations)
 
 > **Choosing a generation:** `android-fhir` is the mature, production-proven stack for Android. The `kotlin-*` libraries are a Kotlin Multiplatform next generation under active development — ideal for cross-platform work, but APIs may still change.
@@ -66,7 +54,7 @@ OHS-SF work is organized into three pillars. Each repository in this organizatio
 | [`kotlin-fhir-data-capture`](https://github.com/ohs-foundation/kotlin-fhir-data-capture) | **Kotlin SDC** — Multiplatform data capture from FHIR Questionnaires | Alpha |
 | [`kotlin-fhir-engine`](https://github.com/ohs-foundation/kotlin-fhir-engine) | **Kotlin FHIR Engine** — Multiplatform on-device FHIR storage & sync | Evolving |
 
-## 02 · OHS Player
+### 02 · OHS Player
 **A Multiplatform reference toolkit** that shows how to assemble FHIR Foundations components into working solutions across Android, iOS, and Web — so teams build and deploy faster | | [View Collection](https://github.com/orgs/ohs-foundation/repositories?q=topic:ohs-player)
 
 | Repository | Role |
@@ -78,13 +66,26 @@ OHS-SF work is organized into three pillars. Each repository in this organizatio
 
 > **Reference, not product.** The Foundation publishes building blocks and reference toolkits — not standalone, deployable end-user products. Player is a starting point you adapt and own.
 
-## 03 · AI Commons (Launching)
+### 03 · AI Commons (Launching)
 **A neutral space for safe, effective AI in global health** — *forming.* Model-agnostic collaboration on evals, benchmarks, verifiable AI, and supporting tooling (skills, MCPs), in partnership with the WHO and the wider ecosystem.
 
 Repositories will appear here as the pillar takes shape. Have a project to donate or an idea to support? [Let's talk](mailto:hello@ohs.foundation).
 
 ---
-# 🤝 Get Involved
+
+# Start here
+
+| If you want to… | Begin with |
+|---|---|
+| Build **cross-platform** (Android, iOS, JVM, Web) on FHIR | the [`kotlin-*` libraries](#01--fhir-foundations) *(next-generation, evolving)* |
+| Add **access control / privacy** in front of a FHIR store | [`fhir-gateway`](https://github.com/ohs-foundation/fhir-gateway) |
+| Run **analytics** and query FHIR data with SQL | [`fhir-data-pipes`](https://github.com/ohs-foundation/fhir-data-pipes) |
+| See a **reference toolkit** assembled end-to-end | [`"OHS Player" Toolkit`](#02--ohs-player) |
+| **Contribute** to the community | [`Contributing`](#contributing) |
+
+---
+
+# Get Involved
 
 We are looking for contributors, health systems, and technology partners to help shape the future of open-source digital health building blocks. 
 
@@ -99,7 +100,7 @@ We welcome contributions of every kind — code, documentation, testing, design,
 ## Code of Conduct
 This project follows the [OHS Software Foundation Code of Conduct](https://github.com/ohs-foundation/.github/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold these standards.
 
-## Community
+# Community
 
 - 💬 Chat : [Join on Discord](https://discord.com/invite/Uyxn5YDvUW)
 - 📅 Community calls: [Subscribe to the Community Calendar](https://shorturl.at/VMmJa)
