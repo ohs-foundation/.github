@@ -39,7 +39,7 @@ _Each repository in this organization belongs to one of the three pillars (filte
 |---|---|---|---|
 | **01** | **[FHIR Foundations](#01--fhir-foundations)** | Standards-based building blocks — libraries, SDKs, and components that make it easier to build with HL7 FHIR | Active |
 | **02** | **[OHS Player](#02--ohs-player)** | A Multiplatform (Android, iOS, Web) reference toolkit to build and deploy FHIR — and, soon, AI — solutions faster | Active |
-| **03** | **[AI Commons](#03--ai-commons)** | A neutral space for safe, verifiable, model-agnostic AI for global health — evals, benchmarks, and tooling | Forming |
+| **03** | **[AI Commons](03--ai-commons-launching)** | A neutral space for safe, verifiable, model-agnostic AI for global health — evals, benchmarks, and tooling | Forming |
 
 ## 01 · FHIR Foundations 
 **Standards-based building blocks.** Foundational libraries, SDKs, and components for building with HL7 FHIR — the consolidated "plumbing" so you don't rebuild it | [View Collection](https://github.com/orgs/ohs-foundation/repositories?q=topic:ohs-fhir-foundations)
